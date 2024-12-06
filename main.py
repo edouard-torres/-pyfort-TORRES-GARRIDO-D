@@ -1,6 +1,6 @@
 from functions import *
 
-cle=0
+cle = 0
 
 if __name__ == '__main__':
     print("function1 dans functions_py")
