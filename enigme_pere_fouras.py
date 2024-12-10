@@ -46,7 +46,7 @@ def enigme_pere_fouras():
     question_reponse=get_question_reponse(dico_question)
     question=question_reponse[0]
     reponse=question_reponse[1].lower()
-    print("réponse",reponse)
+    #print("réponse",reponse)
     belle_question(question)
     #print(question)
     while vie!=0:
@@ -65,9 +65,5 @@ def enigme_pere_fouras():
             else:
                 vie-=1
                 print("\nla réponse est incorecte, il vous reste",vie,'essais\n')
-
-
-
-
 
 enigme_pere_fouras()

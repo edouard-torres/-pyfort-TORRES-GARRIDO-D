@@ -1,7 +1,6 @@
-from random import*
+import random
 from time import sleep
 import json
-
 
 def charger_indices(fichier):
     with open(fichier, "r", encoding='utf-8') as f:
@@ -10,15 +9,20 @@ def charger_indices(fichier):
         print(donnees.values())
         print(donnees.keys())
         for i in donnees.values():
-            for j in i:
-                print(j,"\n")
-            #indice_salle[i['Indices']]=i['MOT-CODE']
+            for w in i.values():
+                for z in w.values():
+                    print(z,"\n")
     return indice_salle
 
 
 
 def salle_De_Tresor():
-    print()
+    fichier = 'indicesSalles.json'
+    with open(fichier, "r", encoding='utf-8') as f:
+        indice_salle={}
+        donnees = json.load(f)
+    for i in donnees.values():
+        for j in i.keys():
+            print(j)
 
-
-print(charger_indices("indicesSalles.json"))
+salle_De_Tresor()
