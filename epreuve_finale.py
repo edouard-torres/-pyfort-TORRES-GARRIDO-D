@@ -16,13 +16,23 @@ def charger_indices(fichier):
 
 
 
-def salle_De_Tresor():
+def salle_de_tresor():
     fichier = 'indicesSalles.json'
     with open(fichier, "r", encoding='utf-8') as f:
-        indice_salle={}
+        indice_salle = {}
+        tempo = []
         donnees = json.load(f)
     for i in donnees.values():
-        for j in i.keys():
-            print(j)
+        for j in donnees["Fort Boyard"].keys():
+            tempo.append(j)
+    annee = str(random.choice(tempo))
+    tempo = []
+    for w in donnees["Fort Boyard"][annee].keys():
+        tempo.append(w)
+    emission = str(random.choice(tempo))
+    tempo = []
+    #for i in donnees["Fort Boyard"][annee][emission].keys():
 
-salle_De_Tresor()
+    return emission
+
+print(salle_de_tresor())

@@ -1,17 +1,24 @@
 from random import *
 from time import sleep
 
-
+def beau_bonneteau():
+    print("    _______         _______         _______    ")
+    print("   /       \\       /       \\       /       \\   ")
+    print("  /         \\     /         \\     /         \\  ")
+    print(" /     A     \\   /     B     \\   /     C     \\ ")
+    print("|             | |             | |             |")
+    print("|             | |             | |             |")
+    print("------------------------------------------------")
 
 def bonneteau():
     reussi = False
     tentative = 0
     L = ['A','B','C']
+    beau_bonneteau()
     bon_choix = choice(L)
     choix_joueur = input("Choisissez le bonneteau sous lequel se cache la clé (A,B ou C) : ")
     while reussi == False and tentative < 1:
-        if ord(choix_joueur) >= 97 and ord(choix_joueur) <= 122:
-            choix_joueur = chr(ord(choix_joueur) - 32)
+        choix_joueur.lower()
         if bon_choix == choix_joueur:
             reussi = True
         else:
