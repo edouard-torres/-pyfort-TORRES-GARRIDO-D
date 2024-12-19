@@ -2,8 +2,6 @@ import json
 from random import*
 from time import sleep
 
-
-
 def charger_enigmes(fichier):
     with open(fichier, "r", encoding='utf-8') as f:
         question_reponse ={}
@@ -11,9 +9,6 @@ def charger_enigmes(fichier):
         for i in donnees:
             question_reponse[i['question']]=i['reponse']
     return question_reponse
-
-
-
 
 def get_question_reponse(dico_question):
     n=randint(0,len(dico_question)-1)
@@ -38,7 +33,6 @@ def belle_question(question):
     for i in phrase:
         print(i,"\n")
         sleep(2)
-
 
 def enigme_pere_fouras():
     vie=3
@@ -65,5 +59,3 @@ def enigme_pere_fouras():
             else:
                 vie-=1
                 print("\nla réponse est incorecte, il vous reste",vie,'essais\n')
-
-enigme_pere_fouras()
