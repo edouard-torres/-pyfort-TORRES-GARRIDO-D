@@ -36,7 +36,7 @@ def belle_question(question):
 
 def enigme_pere_fouras():
     vie=3
-    dico_question=charger_enigmes("enigmesPF.json")
+    dico_question=charger_enigmes("data/enigmesPF.json")
     question_reponse=get_question_reponse(dico_question)
     question=question_reponse[0]
     reponse=question_reponse[1].lower()

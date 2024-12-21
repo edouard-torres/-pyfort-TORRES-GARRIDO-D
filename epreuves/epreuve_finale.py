@@ -17,7 +17,7 @@ def charger_indices(fichier):
 
 
 def salle_de_tresor():
-    fichier = 'indicesSalles.json'
+    fichier = 'data/indicesSalles.json'
     with open(fichier, "r", encoding='utf-8') as f:
         indice_salle = {}
         tempo = []

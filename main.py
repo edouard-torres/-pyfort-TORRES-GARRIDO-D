@@ -7,7 +7,7 @@ from enigme_pere_fouras import *
 from epreuves import *
 
 cle_général = 0
-
+"""
 if __name__ == '__main__':
     introduction()
     nombre_de_joueur=nb_joueur()
@@ -53,3 +53,5 @@ if __name__ == '__main__':
 
     if cle_général==3:
         print(salle_de_tresor())
+
+"""
