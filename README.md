@@ -102,10 +102,11 @@ Chronologie du Projet :
 - visible directement depuis les commits de edouard torres (sur son compte github : https://github.com/edouard-torres)
 
 Répartition des Tâches :
-- On a fait le projet dans l'ordre, on faisait chacun une fonction en même temps
+- On a fait le projet dans l'ordre du pdf, on faisait chacun une fonction différente en même temps tout en s'entraidant si besoin.
 
-
-
+Stratégies de Test :
+- Mise en place de print() un peu partout (afin de débugger les fonctions si besoin)
+- Ajout d'assertion (pour vérifier si nos paramètre en entrée étaient valide)
 
 
 
