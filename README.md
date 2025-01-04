@@ -99,13 +99,10 @@ Gestion des Entrées et Erreurs :
   relancer le programme et de perdre la progression du jeu
 
 Chronologie du Projet :
-- mercredi 4 décembre 2024 début du projet : lecture complète du projet et création du github + la création du "code with me" (qui permet de travailler à deux sur la même session)
-- vendredi 6 décembre 2024 premières fonctions : on a suivi le pdf du projet dans l'ordre et avions fini toutes les épreuves mathématiques
-- mardi 10 décembre 2024 suite du projet : on a fini les épreuves de hasard et commencer la bataille navale
-- dimanche 15 décembre 2024 suite du projet : on a fini la bataille navale 
-- jeudi 19 décembre 2024 suite du projet : on a fini enigme père fouras + on a fini la fonction salle_au_trésor()
-- vendredi 20 décembre fin du projet : on a bien avancé sur les fonctions utiles et on a écrit la fonction main()
-- samedi 4 janvier 2025 fin du projet : on a rajouté des épreuves pour la plaisir et on a embelli au maximum tout le projet
+- visible directement depuis les commits de edouard torres (sur son compte github : https://github.com/edouard-torres)
+
+Répartition des Tâches :
+- On a fait le projet dans l'ordre, on faisait chacun une fonction en même temps
 
 
 
