@@ -1,11 +1,14 @@
 pyfort TORRES GARRIDO D4
 
+Edouard TORRES : Edouad TORRES (github)
+tom GARRIDO : tomyjoli (github)
+
 Bienvenue dans notre rojet intitulé 'Pyfort'. En démarant ce code, vous allez rentrer sur le célèbre fort boyard (revisité bien sûr). Votre but: réussir les épreuves afin d'obtenir 3 clées.
 
 
 tous les pushs ont été fait par edouard car nous avons travaillé tous les 2 grâce au "code with me" de pycharm. Vous pouvez par ailleurs remarquer que nous avons 1 méthode différente de coder chacun.
 
-fonctionnalités principales:
+Fonctionnalités principales:
 - un choix d'équipe allant jusqu'à 3 joueurs personnalisé (nom, proféssion et choix du leader)
 - un choix d'épreuves riches et variées
 - une sensation d'être sur le vrai fort
