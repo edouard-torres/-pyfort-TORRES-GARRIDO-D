@@ -94,6 +94,18 @@ main.py
 stockage_données.py
 - stockage() qui sert à stocker des informations dans le dossier données.txt sur la partie qui a été joué, avec le temps que cela a prit
 
+Gestion des Entrées et Erreurs :
+- Mise en place d'une saisie sécurisé pour toutes les saisies clavier (via l'utilisation de .isdigit(), .split('.'), des listes contenant les saisies attendues      qui force le joueur à rentrer une des valeur de la liste), cela nous a permis d'éviter toutes les erreurs de types "type error" et d'éviter de devoir sans cesse 
+  relancer le programme et de perdre la progression du jeu
+
+Chronologie du Projet :
+- mercredi 4 décembre 2024 début du projet : lecture complète du projet et création du github + la création du "code with me" (qui permet de travailler à deux sur la même session)
+- vendredi 6 décembre 2024 premières fonctions : on a suivi le pdf du projet dans l'ordre et avions fini toutes les épreuves mathématiques
+- mardi 10 décembre 2024 suite du projet : on a fini les épreuves de hasard et commencer la bataille navale
+- dimanche 15 décembre 2024 suite du projet : on a fini la bataille navale 
+- jeudi 19 décembre 2024 suite du projet : on a fini enigme père fouras + on a fini la fonction salle_au_trésor()
+- vendredi 20 décembre fin du projet : on a bien avancé sur les fonctions utiles et on a écrit la fonction main()
+- samedi 4 janvier 2025 fin du projet : on a rajouté des épreuves pour la plaisir et on a embelli au maximum tout le projet
 
 
 
